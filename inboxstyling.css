@@ -1,0 +1,61 @@
+body {
+  background-image: url(res/bean.png);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+button {
+  margin-top: 8px;
+  padding: 10px;
+}
+
+.messageheaders {
+  position: relative;
+  bottom: -27px;
+  background-color: lightgray;
+  border-top: 3px solid black;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-radius: 8px;
+  width: 450px;
+  padding-left: 10px;
+}
+
+.messagebodies {
+  background-color: gray;
+  border-top: 2px solid black;
+  border-bottom: 3px solid black;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-radius: 8px;
+  width: 900px;
+  padding-left: 10px;
+}
+
+#messagestack {
+  position: relative;
+  left: 525px;
+  top: -500px;
+}
+
+#messagesend {
+  position: relative;
+  margin-left: 355px;
+}
+
+#markasread {
+  background-color: gray;
+  border: 2px solid black;
+  padding: 10px;
+  width: 110px;
+}
+
+#directform {
+  position: relative;
+  top: -20px;
+  border: 4px solid black;
+  width: 485px;
+  background-color: gray;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}

@@ -1,0 +1,109 @@
+body {
+  background-image: url(res/bean.png);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+header {
+  border: 4px solid black;
+  width: 510px;
+  background-color: gray;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0px;
+  background-color: lightgray;
+  font-size: small;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.button {
+  margin-top: 8px;
+  padding: 10px;
+}
+
+.postheaders {
+  position: relative;
+  bottom: -43px;
+  background-color: lightgray;
+  border-top: 3px solid black;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-radius: 8px;
+  width: 450px;
+  padding-left: 10px;
+}
+
+.postbodies {
+  background-color: gray;
+  border-top: 2px solid black;
+  border-bottom: 3px solid black;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-radius: 8px;
+  width: 900px;
+  padding-left: 10px;
+}
+
+#contentstack {
+  position: absolute;
+  left: 570px;
+  top: -50px;
+}
+
+#notice {
+  position: relative;
+  top: 350px;
+}
+
+#directform {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 10px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+
+#messagesend {
+  position: relative;
+  left: 355px;
+}
+
+#mail {
+  border: 3px solid black;
+  background-color: gray;
+  padding: 5px;
+  width: 125px;
+}
+
+#unread {
+  position: relative;
+  top: -8px;
+  left: -8px;
+  background-color: lightgray;
+  border: 3px solid black;
+  padding: 4px;
+}
+
+#roll {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+#iddesc {
+  position: relative;
+  top: -35px;
+}
+
+#postplace {
+  margin-left: 15px;
+}
